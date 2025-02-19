@@ -1,5 +1,6 @@
 pragma solidity >=0.4.25 <0.9.0;
 
+
 contract HelloBlockchain {
     enum StateType { Request, Respond }
 
@@ -35,3 +36,4 @@ contract HelloBlockchain {
         State = StateType.Respond;
     }
 }
+
